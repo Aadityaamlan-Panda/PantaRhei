@@ -1,0 +1,83 @@
+{
+    "goals": [
+        {
+            "goal": "Learn Python",
+            "tasks": [
+                {
+                    "task": "Complete Python Basics"
+                },
+                {
+                    "task": "Build a simple Project"
+                },
+                {
+                    "task": "review Advanced concepts"
+                }
+            ],
+            "days_left": 30
+        },
+        {
+            "goal": "Fitness",
+            "tasks": [
+                {
+                    "task": "workout 4 days a week"
+                },
+                {
+                    "task": "Prepare Healthy meals"
+                }
+            ],
+            "days_left": 45
+        },
+        {
+            "goal": "read mathematics",
+            "tasks": [
+                {
+                    "task": "understand concepts"
+                },
+                {
+                    "task": "practice problems"
+                }
+            ],
+            "days_left": 20
+        },
+        {
+            "goal": "Learn COMSOL",
+            "tasks": [
+                {
+                    "task": "Learn basics"
+                },
+                {
+                    "task": "learn modelling"
+                }
+            ],
+            "days_left": 24
+        }
+    ],
+    "time_intervals": {
+        "Sleep Hours": [
+            {
+                "start": "22:00",
+                "end": "06:00"
+            }
+        ],
+        "Meal Hours": [
+            {
+                "start": "08:00",
+                "end": "09:00"
+            },
+            {
+                "start": "12:00",
+                "end": "13:00"
+            },
+            {
+                "start": "18:00",
+                "end": "20:00"
+            }
+        ],
+        "Pre-committed Hours": [
+            {
+                "start": "20:00",
+                "end": "22:00"
+            }
+        ]
+    }
+}
