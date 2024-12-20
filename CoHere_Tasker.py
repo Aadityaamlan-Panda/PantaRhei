@@ -7,7 +7,7 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
 from reportlab.lib import colors
 
 # Initialize Cohere client
-api_key = "BOI7pYLeLilCROi5BUicZDejy9rk4ArpqsATrXOi"  # Replace with your Cohere API key
+api_key = " "  # Replace with your Cohere API key
 co = cohere.Client(api_key)
 
 # Function to analyze goal
