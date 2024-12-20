@@ -17,8 +17,8 @@ The Goal Manager App is a desktop application designed to help users set, manage
   - `FPDF`
   - `g4f` (for GPT model integration)
   
-Install these packages using:
-```bash
+- Install these packages using:
+bash
 pip install PyQt5 fpdf g4f
 Usage
 Run the application:
@@ -36,7 +36,7 @@ Menu Options:
 6. Exit: Exit the application.
 Output Schedule: The schedule is displayed in the app and saved as schedule.pdf in the project directory.
 
-File Structure
+## File Structure
 goal_manager_app.py: Main application file.
 user_data.json: JSON file to save user goals and time intervals.
 schedule.pdf: PDF file containing the generated schedule.
