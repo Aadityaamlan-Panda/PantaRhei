@@ -18,25 +18,28 @@ The Goal Manager App is a desktop application designed to help users set, manage
   - `g4f` (for GPT model integration)
   
 - Install these packages using:
-bash
+```bash
 pip install PyQt5 fpdf g4f
+```
 Usage
 Run the application:
 
-bash
+```bash
 Copy code
 AI_Task_bot.py
-Menu Options:
+```
+```Menu Options:
 
-1. Add new goals: Add goals with deadlines and individual tasks.
-2. Edit existing goals: Modify goal tasks or adjust deadlines.
-3. Restart with new goals: Clear all current goals and start fresh.
-4. Enter/Update time intervals: Specify daily time intervals for sleep, meals, and other commitments.
-5. Generate schedule: Generate an optimized schedule based on goals and time intervals. The generated schedule is also saved as a PDF.
-6. Exit: Exit the application.
-Output Schedule: The schedule is displayed in the app and saved as schedule.pdf in the project directory.
+- 1. Add new goals: Add goals with deadlines and individual tasks.
+- 2. Edit existing goals: Modify goal tasks or adjust deadlines.
+- 3. Restart with new goals: Clear all current goals and start fresh.
+- 4. Enter/Update time intervals: Specify daily time intervals for sleep, meals, and other commitments.
+- 5. Generate schedule: Generate an optimized schedule based on goals and time intervals. The generated schedule is also saved as a PDF.
+- 6. Exit: Exit the application.
+- Output Schedule: The schedule is displayed in the app and saved as schedule.pdf in the project directory.
+```
 
 ## File Structure
-goal_manager_app.py: Main application file.
-user_data.json: JSON file to save user goals and time intervals.
-schedule.pdf: PDF file containing the generated schedule.
+- goal_manager_app.py: Main application file.
+- user_data.json: JSON file to save user goals and time intervals.
+- schedule.pdf: PDF file containing the generated schedule.
